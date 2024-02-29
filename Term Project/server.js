@@ -13,7 +13,9 @@ app.use(bodyParser.json());
 const data = require('./data.json');
 
 app.get('/posts', (req, res) => {
-    res.json(data.posts);
+    if (data['posts']) {
+        res.json(data.posts);
+    }
 });
 
 
@@ -27,6 +29,7 @@ app.get('/posts/:postId', (req, res) => {
     }
 });
 
+app.post('/posts')
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
