@@ -1,0 +1,30 @@
+body#body1 {
+    font-family: 'Arial', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-areas:
+        "ticker ticker ticker"
+        "left right right-right";
+    grid-template-columns: 30% 40% 30%;
+    grid-gap: 20px;
+}
+
+#left {
+    grid-area: left;
+    margin: 10px;
+}
+
+#right {
+    grid-area: right;
+    margin: 10px;
+}
+
+#right-right {
+    grid-area: right-right;
+    margin: 10px;
+}
+
+
+

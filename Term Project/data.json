@@ -1,0 +1,98 @@
+{
+    "clubs" : {
+      "RMA" : {
+        "officers" : [
+  
+        ],
+  
+        "members" : [
+  
+        ],
+  
+        "posts" : [
+  
+        ],
+  
+        "announcments" : [
+  
+        ]
+      }
+    },
+  
+    "students" : {
+      "crossc4" : {
+        "firstName" : "",
+  
+        "lastName" : "",
+  
+        "email" : "",
+  
+        "password" : "",
+  
+        "clubs" : [
+  
+        ],
+  
+        "posts" : [
+  
+        ],
+  
+        "announcments" : [
+  
+        ]
+      }
+    },
+  
+    "posts" : {
+      "unqiue hex string" : {
+        "userPost" : "crossc4",
+        
+        "clubPost" : [ 
+  
+        ],
+  
+        "title" : "",
+  
+        "description" : "",
+  
+        "information" : "",
+  
+        "image" : "",
+  
+        "tags" : ""
+      },
+      "TEST" : {
+        "userPost" : "Kerry",
+        
+        "clubPost" : [ 
+  
+        ],
+  
+        "title" : "",
+  
+        "description" : "",
+  
+        "information" : "",
+  
+        "image" : "",
+  
+        "tags" : ""
+      }
+    },
+  
+    "announcments" : {
+      "unqiue hex string" : {
+        "userPost" : "crossc4",
+        
+        "clubPost" : [
+  
+        ],
+  
+        "title" : "",
+  
+        "description" : "",
+  
+        "tags" : ""
+      }
+    }
+  }
